@@ -8,7 +8,7 @@ function reverse(num){
     console.log(reverse)
 }
 
-reverse(711)
+
 
 
 function getUrlParameterValue(url, parameter){
@@ -16,5 +16,5 @@ function getUrlParameterValue(url, parameter){
     let ans = url.searchParams.get(parameter)
     return ans
 }
-var url ='https://www.kommunicate.io/poweredby?utm_source=https://www.kommunicate.io/&utm_medium=webplugin&utm_campaign=poweredby';
-console.log(getUrlParameterValue(url, 'utm_campaign'))
+// var url ='https://www.kommunicate.io/poweredby?utm_source=https://www.kommunicate.io/&utm_medium=webplugin&utm_campaign=poweredby';
+// console.log(getUrlParameterValue(url, 'utm_campaign'))
